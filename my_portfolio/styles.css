@@ -11,14 +11,14 @@ body {
 }
 
 #container {
-	width: 780px;
+	width: 790px;
 	height: auto;
 	background-color: white;
 	margin: auto;
 }
 
 header {
-	width: 768px;
+	width: 785px;
 	height: 259px;
 	background-color: #008000;
 	background-image: url(header.jpg);
@@ -27,7 +27,7 @@ header {
 
 /*Float the Aside so it displays next to Main*/
 aside {
-    width: 150px;
+    width: 160px;
     height: 1200px;
     float: left;
     background-color: #747C74;
