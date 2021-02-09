@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 19px;
+    background-image: url(bokeh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: right;
+}
+
+#container {
+	width: 780px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+header {
+	width: 768px;
+	height: 259px;
+	background-color: #008000;
+	background-image: url(header.jpg);
+	background-position: 60% 0%;
+}
+
+/*Float the Aside so it displays next to Main*/
+aside {
+    width: 150px;
+    height: 1200px;
+    float: left;
+    background-color: #747C74;
+}
+/*Float the Main so it shows up next to the Aside. Reduce the width by 150px so they both line up*/
+main {
+    width: 618px;
+    height: 1200px;
+    float: left;
+}
+/*Clear the float so th e footer shows up int he right place again*/
+footer {
+    width: 768px;
+    height: 50px;
+    clear: both;
+    float: none;
+	background-color: #646464
+}
+
+h1 {
+    color: #6BE7FF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: politica,sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 24pt;
+}
+p{
+	font-family: canada-type-gibson,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+h3 {
+    font-size: 20px;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    font-style: italic;
+}
+.floatleft {
+	float:left
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 80px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    font-style: italic;
+	font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+body,td,th {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+nav a:link {
+    color: #6CE8FF;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #86008A;
+    text-decoration: none;
+	background: #6CE8FF;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    color: #191919;
+    text-decoration: none;
+}
+.submit_btn {
+    width: 170px;
+    border-radius: 10px;
+    background-color: #6BE7FF;
+    color: #FFFFFF;
+    height: 30px;
+    font-size: 16px;
+}
+.submit_btn:hover {
+    -webkit-box-shadow: 6px 6px 35px #000000;
+    box-shadow: 6px 6px 35px;
+    width: auto;
+    font-size: medium;
+}
