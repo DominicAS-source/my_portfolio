@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/dej4rcr.css">
+<!-- TemplateBeginEditable name="head" -->
+	<style type="text/css">
+</style>
+<!-- TemplateEndEditable -->
+
+</head>
+
+<body>
+	<div id="container">
+  <header>&nbsp;</header>
+  <nav>	<li><a href="../pages/about.html">About</a></li>
+	<li><a href="../pages/Blog.html">Blog</a></li>
+	<li><a href="../pages/gallery.html">Gallery</a></li>
+	<li><a href="../contacts.html">Contacts</a></li>
+  </nav>
+  <!--Begin Floated Elements-->
+  <aside><h3>I am a young man, a student, a teenager, a child, naive, mythology enthusiast, and a gamer. I also wear glasses.</h3>
+    <h3>This is reality through my lenses.</h3>
+	<h3>By Dominic Stogden</h3></aside>
+  <!-- TemplateBeginEditable name="main-content" -->
+  <main>
+    <h1> Page Title </h1>
+  </main>
+  <!-- TemplateEndEditable -->
+<!--End Floated Elements-->
+  <footer>Content for New footer Tag Goes Here</footer>
+</div>
+</body>
+</html>
